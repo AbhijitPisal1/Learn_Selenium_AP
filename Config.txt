@@ -34,3 +34,12 @@ OR
 
 ## Clone to local folder
 >> git clone "GitHub Repo Address for SSH"
+
+## list of all branch 
+>> git branch
+
+## create new branch
+>> git branch BranchName
+
+## Switch to any branch
+>> git checkout BranchName
