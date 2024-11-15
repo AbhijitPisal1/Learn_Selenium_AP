@@ -1,1 +1,36 @@
-New file added from git
+// All commands used for git operations
+
+## Generating new SSH Key 
+>> ssh-keygen -t rsa -b 4096 -C "mail address"
+
+## checking git version 
+>> git --version
+
+## initialize the current folder as a Local Repo
+>> git init
+
+## Link local repo with the GitHub Repo
+>> git remote add origin "GitHubURL SSH"
+
+## Show GitHUb Repo linked to local repo
+>> git remote -v
+
+## Check new changes maded in local repo
+>> git status
+
+## add files which are ready for commit
+>> git add filename
+OR
+>> git add .
+
+## add files to local repo
+>> git commit -m "message"
+
+## push local repo changes to GitHub
+>> git push -u origin master
+
+## Take latest code from GitHub
+>> git pull origin master
+
+## Clone to local folder
+>> git clone "GitHub Repo Address for SSH"
